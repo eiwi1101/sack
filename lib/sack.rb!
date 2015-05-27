@@ -1,4 +1,0 @@
-require 'action_dispatch_extension'
-
-module Sack
-end
