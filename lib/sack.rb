@@ -1,3 +1,4 @@
+require 'sack/railtie'
 require 'sack/action_dispatch_extension'
 require 'sack/controller'
 require 'deterministic'
