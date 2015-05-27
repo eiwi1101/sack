@@ -28,11 +28,8 @@ module Sack::Controller
   # Override for full control over how the operation is
   # invoked and its outcome is handled
   def perform
-    begin
-      success(invoke_operation)
-    rescue Exception => e
-      failure(e)
-    end
+    result = invoke_operation
+    send(result.success? ? :success : :failure, result.value)
   end
 
 end
