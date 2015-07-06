@@ -9,9 +9,8 @@ Gem::Specification.new do |s|
   s.version     = Sack::VERSION
   s.authors     = ["David North"]
   s.email       = ["davidnorth@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Sack."
-  s.description = "TODO: Description of Sack."
+  s.summary     = "Single Action Controllers, oK?"
+  s.description = "Experimenting with Rails controllers."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
