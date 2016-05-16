@@ -1,5 +1,5 @@
 class Sack::TemplateResolver < ::ActionView::FileSystemResolver
-  def find_templates(name, prefix, partial, details)
+  def find_templates(name, prefix, partial, details, outside_app_allowed = false)
     if prefix.include?('/')
       parts  = prefix.split '/'
 
