@@ -1,2 +1,0 @@
-= Sack - Single Action Controllers
-
